@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { Album } from "../album";
-import { Track } from "../track";
 import { ProductService } from "../product.service";
 
 @Component({
