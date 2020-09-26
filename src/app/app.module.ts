@@ -9,12 +9,14 @@ import { ProductDescriptionComponent } from "./product-description/product-descr
 import { ProductService } from "./product.service";
 import { from } from "rxjs/observable/from";
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
+import { ProductListComponent } from './product-list/product-list.component';
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
     ProductTracklistingComponent,
+    ProductListComponent,
   ],
   imports: [BrowserModule, FormsModule, HttpModule],
   providers: [ProductService],
